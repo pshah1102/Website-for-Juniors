@@ -1,0 +1,123 @@
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.button 
+{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: #fff;
+    margin: 2px 2px 0 2px;
+    cursor: pointer;
+}
+.button a 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+.extraButton,#voiceSelect{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+.speakButton 
+{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:left;
+    background-color: #fff;
+    color: #555;
+    margin: 2px 2px 0 2px;
+    cursor: pointer;
+    line-height: 25px;
+}
+#voice-select{
+    float:left;
+}
+#container 
+{
+    width:50%;
+    margin: 150px auto;
+    padding: 50px 30px;
+    background-color: #f67c92;
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #999;
+}
+#container img{
+    /* max-width: 200px; */
+    max-height: 300px;
+}
+#radio ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+#radio_li
+{
+    background: #cc3853;
+    /* eb4b68 */
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+#start 
+{
+    display:none;
+    width: 100px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f67c92;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-btn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}

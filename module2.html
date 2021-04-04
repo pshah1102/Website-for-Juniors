@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Make Quiz Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="src/module2.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<nav id="sideNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<a href="#courses">Modules</a>
+					<ul>
+						<li><a href="module1.html">Module 1</a></li>
+						<li><a href="module2.html">Module 2</a></li>
+						<li><a href="#">Module 3</a></li>
+						<li><a href="#">Module 4</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" id="menu-btn">
+
+		<button class="speakButton">Listen It</button>
+		<div class="container">
+			<div class="alphabet a"><p>A</p></div>
+			<div class="alphabet b"><p>B</p></div>
+			<div class="alphabet c"><p>C</p></div>
+			<div class="alphabet d"><p>D</p></div>
+			<div class="alphabet e"><p>E</p></div>
+			<div class="alphabet f"><p>F</p></div>
+			<div class="alphabet g"><p>G</p></div>
+			<div class="alphabet h"><p>H</p></div>
+			<div class="alphabet i"><p>I</p></div>
+			<div class="alphabet j"><p>J</p></div>
+			<div class="alphabet k"><p>K</p></div>
+			<div class="alphabet l"><p>L</p></div>
+			<div class="alphabet m"><p>M</p></div>
+			<div class="alphabet n"><p>N</p></div>
+			<div class="alphabet o"><p>O</p></div>
+			<div class="alphabet p"><p>P</p></div>
+			<div class="alphabet q"><p>Q</p></div>
+			<div class="alphabet r"><p>R</p></div>
+			<div class="alphabet s"><p>S</p></div>
+			<div class="alphabet t"><p>T</p></div>
+			<div class="alphabet u"><p>U</p></div>
+			<div class="alphabet v"><p>V</p></div>
+			<div class="alphabet w"><p>W</p></div>
+			<div class="alphabet x"><p>X</p></div>
+			<div class="alphabet y"><p>Y</p></div>
+			<div class="alphabet z"><p>Z</p></div>
+		</div>
+		<select id="voice-select"><select></select>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		<script>
+			var menuBtn = document.getElementById("menu-btn");
+			var sideNav = document.getElementById("sideNav");
+	
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function(){
+				if(sideNav.style.right == "-250px"){
+					sideNav.style.right = "0px";
+				}else{
+					sideNav.style.right = "-250px";
+				}
+			}
+		</script>
+		<script type="text/javascript" src="src/module2.js"></script>
+	</body>
+</html>
