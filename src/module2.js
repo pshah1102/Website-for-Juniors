@@ -1,3 +1,6 @@
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
 const synth = window.speechSynthesis;
 const voiceSelect = document.getElementById('voice-select');
 $('#voice-select').hide();

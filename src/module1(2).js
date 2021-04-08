@@ -1,10 +1,10 @@
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 const synth = window.speechSynthesis;
 const voiceSelect = document.getElementById('voice-select');
 $('#voice-select').hide();
 
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 let voices = [];
 
   const getVoices = () => {
@@ -31,65 +31,65 @@ let voices = [];
 
   var allQuestions = [{
     image:'images/chocolate.jpg',
-    options: ["Chain", "Cheetah", "Chocolate", "Chips"],
-    answer: 2
-  }, {
-    image:'images/cherry.jpg',
-    options: ["Chess", "Cheetah", "Chain", "Cherry"],
-    answer: 3
-  }, {
-    image:'images/chair.jpg',
-    options: ["Chair", "Chaos", "Charcoal", "Cheese"],
+    options: ["King", "Thundering", "Breathing", "Thing"],
     answer: 0
   }, {
+    image:'images/cherry.jpg',
+    options: ["Throwing", "Threatening", "Ring", "Wing"],
+    answer: 2
+  }, {
+    image:'images/chair.jpg',
+    options: ["Thing", "Building", "Growing", "Stealing"],
+    answer: 1
+  }, {
     image:'images/cheetah.jpg',
-    options: ["Chair", "Chips", "Cheetah", "Chocolate"],
-    answer: 2
-   }, {
-    image:'images/chess.jpg',
-    options: ["Chain","Chaos", "Chess", "Chocolate"],
-    answer: 2
-   }, {
-    image:'images/bench.jpg',
-    options: ["Torch","Watch", "Beach", "Bench"],
+    options: ["Horning", "Ring", "Thing", "Warning"],
     answer: 3
    }, {
+    image:'images/chess.jpg',
+    options: ["Threatening","Paying", "Ping", "Parking"],
+    answer: 3
+   }, {
+    image:'images/bench.jpg',
+    options: ["Crying","Thing", "Hiking", "Threatening"],
+    answer: 0
+   }, {
     image:'images/torch.jpg',
-    options: ["Watch","Torch", "Chess", "Beach"],
-    answer: 1
+    options: ["Firing","FIghting", "Flying", "Pranking"],
+    answer: 2
    }, {
     image:'images/watch.jpg',
-    options: ["Bench","Ostrich", "Torch", "Watch"],
+    options: ["Gaming","Going", "Gambling", "Gesturing"],
     answer: 0
    }, {
     image:'images/beach.jpg',
-    options: ["Bench","Beach", "Watch", "Ostrich"],
-    answer: 1
+    options: ["Ending","Earthing", "Eating", "Meeting"],
+    answer: 2
    }, {
     image:'images/ostrich.jpg',
-    options: ["Beach","Watch", "Ostrich", "Bench"],
-    answer: 2
+    options: ["Banking","Barking", "Bowling", "Bargaining"],
+    answer: 1
    },{
     image:'images/ketchup.jpg',
-    options: ["Ketchup","Matchstick", "Kitchen", "Lunchbox"],
-    answer: 0
-   }, {
-    image:'images/lunchbox.jpg',
-    options: ["Kitchen","Nachos", "Orchid", "Lunchbox"],
+    options: ["Rendering","Roasting", "Riding", "Running"],
     answer: 3
    }, {
-    image:'images/nachos.jpg',
-    options: ["Ketchup","Nachos", "Kitchen", "Matchstick"],
-    answer: 1
-   }, {
-    image:'images/matchstick.jpg',
-    options: ["Lunchbox","Kitchen", "Mtachstick", "Orchid"],
+    image:'images/lunchbox.jpg',
+    options: ["Bowing","Bending", "Boating", "Bowling"],
     answer: 2
    }, {
+    image:'images/nachos.jpg',
+    options: ["Casting","Catering", "Cunning", "Cutting"],
+    answer: 3
+   }, {
+    image:'images/matchstick.jpg',
+    options: ["Crying","Cycling", "Cunning", "Coming"],
+    answer: 1
+   }, {
     image:'images/kitchen.jpg',
-    options: ["Nachos","Kitchen", "Orchid", "Kitchen"],
-    answer: 1 }
-  
+    options: ["Painting","Paying", "Playing", "Ping"],
+    answer: 0 }
+ 
 ];
 
   

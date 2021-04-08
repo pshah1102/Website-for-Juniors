@@ -9,7 +9,9 @@ var menuBtn = document.getElementById("menu-btn");
                 sideNav.style.right = "-250px";
             }
         }
-
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
 if("serviceWorker" in navigator)   {
     navigator.serviceWorker.register("sw.js").then(registration =>{
         console.log("SW Registered!");

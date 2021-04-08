@@ -31,64 +31,64 @@ let voices = [];
 
   var allQuestions = [{
     image:'images/chocolate.jpg',
-    options: ["Chain", "Cheetah", "Chocolate", "Chips"],
-    answer: 2
-  }, {
-    image:'images/cherry.jpg',
-    options: ["Chess", "Cheetah", "Chain", "Cherry"],
-    answer: 3
-  }, {
-    image:'images/chair.jpg',
-    options: ["Chair", "Chaos", "Charcoal", "Cheese"],
+    options: ["Thor", "Thunder", "Breath", "Thing"],
     answer: 0
   }, {
+    image:'images/cherry.jpg',
+    options: ["Thor", "Threat", "Thunder", "Death"],
+    answer: 2
+  }, {
+    image:'images/chair.jpg',
+    options: ["Throat", "Throw", "Growth", "Thief"],
+    answer: 1
+  }, {
     image:'images/cheetah.jpg',
-    options: ["Chair", "Chips", "Cheetah", "Chocolate"],
-    answer: 2
-   }, {
-    image:'images/chess.jpg',
-    options: ["Chain","Chaos", "Chess", "Chocolate"],
-    answer: 2
-   }, {
-    image:'images/bench.jpg',
-    options: ["Torch","Watch", "Beach", "Bench"],
+    options: ["Tooth", "Thirst", "Thing", "Cloth"],
     answer: 3
    }, {
+    image:'images/chess.jpg',
+    options: ["Threat","Myth", "Thor", "Mouth"],
+    answer: 3
+   }, {
+    image:'images/bench.jpg',
+    options: ["North","Thing", "Month", "Threat"],
+    answer: 0
+   }, {
     image:'images/torch.jpg',
-    options: ["Watch","Torch", "Chess", "Beach"],
-    answer: 1
+    options: ["Throw","Threapy", "Thread", "Thanks"],
+    answer: 2
    }, {
     image:'images/watch.jpg',
-    options: ["Bench","Ostrich", "Torch", "Watch"],
+    options: ["Month","North", "Thing", "Mouth"],
     answer: 0
    }, {
     image:'images/beach.jpg',
-    options: ["Bench","Beach", "Watch", "Ostrich"],
-    answer: 1
+    options: ["Throat","Breath", "Earth", "Teeth"],
+    answer: 2
    }, {
     image:'images/ostrich.jpg',
-    options: ["Beach","Watch", "Ostrich", "Bench"],
-    answer: 2
+    options: ["Thirst","Thanks", "Throw", "Thin"],
+    answer: 1
    },{
     image:'images/ketchup.jpg',
-    options: ["Ketchup","Matchstick", "Kitchen", "Lunchbox"],
-    answer: 0
-   }, {
-    image:'images/lunchbox.jpg',
-    options: ["Kitchen","Nachos", "Orchid", "Lunchbox"],
+    options: ["Throat","Thank", "Think", "Thin"],
     answer: 3
    }, {
-    image:'images/nachos.jpg',
-    options: ["Ketchup","Nachos", "Kitchen", "Matchstick"],
-    answer: 1
-   }, {
-    image:'images/matchstick.jpg',
-    options: ["Lunchbox","Kitchen", "Mtachstick", "Orchid"],
+    image:'images/lunchbox.jpg',
+    options: ["Throat","Thank", "Think", "Thin"],
     answer: 2
    }, {
+    image:'images/nachos.jpg',
+    options: ["Plinth","Tenth", "Breath", "Death"],
+    answer: 3
+   }, {
+    image:'images/matchstick.jpg',
+    options: ["Lunchbox","Tooth", "Death", "Tenth"],
+    answer: 1
+   }, {
     image:'images/kitchen.jpg',
-    options: ["Nachos","Kitchen", "Orchid", "Kitchen"],
-    answer: 1 }
+    options: ["Thumb","Month", "Think", "Throw"],
+    answer: 0 }
   
 ];
 
