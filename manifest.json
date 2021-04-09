@@ -2,8 +2,8 @@
     "name": "Website for Juniors",
     "short_name": "Website for juniors",
     "start_url": ".",
-    "background_color":"#6dcdb1",
-    "theme_color": "#009578",
+    "background_color":"#fff",
+    "theme_color": "#f67c92",
     "display": "standalone",
     "icons":[
         {
